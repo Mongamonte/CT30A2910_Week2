@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant menu</title>
+  </head>
+  <body>
+  <h1 id="form-head">Form</h1>
+  <form id="new-form">
+    <label for="input-username">Username:</label><br />
+    <input type="text" id="input-username" name="input-username" /><br /><br>
+    <label for="input-email">Email:</label><br />
+    <input type="text" id="input-email" /><br /><br>
+    <label for="input-address">Address:</label><br />
+    <input type="text" id="input-address" /><br /><br>
+    <br /><input
+      type="checkbox"
+      id="input-admin"
+      name="input-admin"
+      value="X"
+    />    
+    <label for="input-admin">Yes, I am admin</label><br><br>
+
+  </form>
+  <br />
+  <button id="submit-data">Submit</button>
+  <button id="empty-table">Clear the form</button>  
+  <br />
+  <h1 id="list-head">List</h1>
+  <body>
+    <table id="table">
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Address</th>
+        <th>Admin</th>
+      </tr>
+      <tr>
+        <td>Webmaster</td>
+        <td>example@email.com</td>
+        <td>Demoland 123</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <td>User123</td>
+        <td>example@email.com</td>
+        <td>Userplace 321</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>AnotherUser222</td>
+        <td>example@email.com</td>
+        <td>AnotherPlace 21</td>
+        <td>-</td>
+      </tr>
+    </table>
+    
+		<script src="src/index.js"></script>
+  </body>
+</html>
